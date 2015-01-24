@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "content_scripts": [ {
-      "js": [ "cyber.js" ],
+      "js": [ "free.js" ],
       "matches": ["<all_urls>"]
    } ],
 	"icons": { "48": "cyber.png",
