@@ -2,7 +2,7 @@ this.data = document.body.innerHTML;
 
 // Test if the webpage concerns infosec or not
 var is_infosec = /infosec | security | sécurité | securite/;
-var cyber_free_regex = /(cyber(.\w*))/ig;
+var cyber_free_regex = /(cyber-?(.\w*))/ig;
 
 if(this.data.match(is_infosec)){
 
